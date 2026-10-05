@@ -1,0 +1,177 @@
+{
+  "generatedBy": "api/src/server/services/escrow/merkle.ts buildMerkleTree",
+  "five": {
+    "input": [
+      {
+        "account": "0x31fffDFc9Ec36F1340be49245E1c96F4512F679e",
+        "amount": "100000000000000"
+      },
+      {
+        "account": "0xCaf7C1ce6F234bED687264cBE6210a4ab5c12fd6",
+        "amount": "100000000000000"
+      },
+      {
+        "account": "0x0265A0C64A602c2c833CF011c131c6a7c993ACe9",
+        "amount": "100000000000000"
+      },
+      {
+        "account": "0x5aD5000000000000000000000000000000000001",
+        "amount": "70000000000000"
+      },
+      {
+        "account": "0x1490000000000000000000000000000000000002",
+        "amount": "30000000000000"
+      }
+    ],
+    "root": "0x70abaa5a774b4a1ebdd1b6fa322e6746851b295a71d1e58098b9ae051d270058",
+    "dump": {
+      "format": "peddles-quest-escrow-merkle-v1",
+      "leafEncoding": [
+        "address",
+        "uint256"
+      ],
+      "root": "0x70abaa5a774b4a1ebdd1b6fa322e6746851b295a71d1e58098b9ae051d270058",
+      "values": [
+        {
+          "account": "0xCaf7C1ce6F234bED687264cBE6210a4ab5c12fd6",
+          "amount": "100000000000000",
+          "leaf": "0x094dc244a0445c808995af8514a384ba3a837bb0fad1b6cbf3530bdcb9e7ccce",
+          "treeIndex": 0
+        },
+        {
+          "account": "0x31fffDFc9Ec36F1340be49245E1c96F4512F679e",
+          "amount": "100000000000000",
+          "leaf": "0x57a494aa4b8fe423ba8c1b2de3af4031ab4c61a52347e2159aabd5dc86118525",
+          "treeIndex": 1
+        },
+        {
+          "account": "0x5aD5000000000000000000000000000000000001",
+          "amount": "70000000000000",
+          "leaf": "0x7afae790ffcf4f54e02ce3dd68abddf079e19f6b521ca8d3ab461e8fc0a4691c",
+          "treeIndex": 2
+        },
+        {
+          "account": "0x1490000000000000000000000000000000000002",
+          "amount": "30000000000000",
+          "leaf": "0xa18613cb645b7189a7b2a49d57a67ccfc51b23b4ba3a82f55efb28dc0a853bdd",
+          "treeIndex": 3
+        },
+        {
+          "account": "0x0265A0C64A602c2c833CF011c131c6a7c993ACe9",
+          "amount": "100000000000000",
+          "leaf": "0xac06bf7775f5210d20fe1142fe551d762408973a44f85e065cccef6e6bfc2e90",
+          "treeIndex": 4
+        }
+      ],
+      "levels": [
+        [
+          "0x094dc244a0445c808995af8514a384ba3a837bb0fad1b6cbf3530bdcb9e7ccce",
+          "0x57a494aa4b8fe423ba8c1b2de3af4031ab4c61a52347e2159aabd5dc86118525",
+          "0x7afae790ffcf4f54e02ce3dd68abddf079e19f6b521ca8d3ab461e8fc0a4691c",
+          "0xa18613cb645b7189a7b2a49d57a67ccfc51b23b4ba3a82f55efb28dc0a853bdd",
+          "0xac06bf7775f5210d20fe1142fe551d762408973a44f85e065cccef6e6bfc2e90"
+        ],
+        [
+          "0xc5b4fde28465a11703717e86f98dbab0cd5a710bb2cc3110c415ae479aef75a2",
+          "0xefb250fe4a425f9a04d3dcbe70b1e7584f59a3b31c0e6f4cbf5ba333ef7c0ab8",
+          "0xac06bf7775f5210d20fe1142fe551d762408973a44f85e065cccef6e6bfc2e90"
+        ],
+        [
+          "0x7034eb3023eb310d96826253051c604ea52969a846b833c9b37020e2e4c4125c",
+          "0xac06bf7775f5210d20fe1142fe551d762408973a44f85e065cccef6e6bfc2e90"
+        ],
+        [
+          "0x70abaa5a774b4a1ebdd1b6fa322e6746851b295a71d1e58098b9ae051d270058"
+        ]
+      ]
+    },
+    "entries": [
+      {
+        "account": "0xCaf7C1ce6F234bED687264cBE6210a4ab5c12fd6",
+        "amount": "100000000000000",
+        "leaf": "0x094dc244a0445c808995af8514a384ba3a837bb0fad1b6cbf3530bdcb9e7ccce",
+        "proof": [
+          "0x57a494aa4b8fe423ba8c1b2de3af4031ab4c61a52347e2159aabd5dc86118525",
+          "0xefb250fe4a425f9a04d3dcbe70b1e7584f59a3b31c0e6f4cbf5ba333ef7c0ab8",
+          "0xac06bf7775f5210d20fe1142fe551d762408973a44f85e065cccef6e6bfc2e90"
+        ]
+      },
+      {
+        "account": "0x31fffDFc9Ec36F1340be49245E1c96F4512F679e",
+        "amount": "100000000000000",
+        "leaf": "0x57a494aa4b8fe423ba8c1b2de3af4031ab4c61a52347e2159aabd5dc86118525",
+        "proof": [
+          "0x094dc244a0445c808995af8514a384ba3a837bb0fad1b6cbf3530bdcb9e7ccce",
+          "0xefb250fe4a425f9a04d3dcbe70b1e7584f59a3b31c0e6f4cbf5ba333ef7c0ab8",
+          "0xac06bf7775f5210d20fe1142fe551d762408973a44f85e065cccef6e6bfc2e90"
+        ]
+      },
+      {
+        "account": "0x5aD5000000000000000000000000000000000001",
+        "amount": "70000000000000",
+        "leaf": "0x7afae790ffcf4f54e02ce3dd68abddf079e19f6b521ca8d3ab461e8fc0a4691c",
+        "proof": [
+          "0xa18613cb645b7189a7b2a49d57a67ccfc51b23b4ba3a82f55efb28dc0a853bdd",
+          "0xc5b4fde28465a11703717e86f98dbab0cd5a710bb2cc3110c415ae479aef75a2",
+          "0xac06bf7775f5210d20fe1142fe551d762408973a44f85e065cccef6e6bfc2e90"
+        ]
+      },
+      {
+        "account": "0x1490000000000000000000000000000000000002",
+        "amount": "30000000000000",
+        "leaf": "0xa18613cb645b7189a7b2a49d57a67ccfc51b23b4ba3a82f55efb28dc0a853bdd",
+        "proof": [
+          "0x7afae790ffcf4f54e02ce3dd68abddf079e19f6b521ca8d3ab461e8fc0a4691c",
+          "0xc5b4fde28465a11703717e86f98dbab0cd5a710bb2cc3110c415ae479aef75a2",
+          "0xac06bf7775f5210d20fe1142fe551d762408973a44f85e065cccef6e6bfc2e90"
+        ]
+      },
+      {
+        "account": "0x0265A0C64A602c2c833CF011c131c6a7c993ACe9",
+        "amount": "100000000000000",
+        "leaf": "0xac06bf7775f5210d20fe1142fe551d762408973a44f85e065cccef6e6bfc2e90",
+        "proof": [
+          "0x7034eb3023eb310d96826253051c604ea52969a846b833c9b37020e2e4c4125c"
+        ]
+      }
+    ]
+  },
+  "single": {
+    "input": [
+      {
+        "account": "0x31fffDFc9Ec36F1340be49245E1c96F4512F679e",
+        "amount": "1"
+      }
+    ],
+    "root": "0x2cd2db23af76de3c7fc794e0f5e7891b346eda7e56b0697a7f4bd03e8b6efc65",
+    "dump": {
+      "format": "peddles-quest-escrow-merkle-v1",
+      "leafEncoding": [
+        "address",
+        "uint256"
+      ],
+      "root": "0x2cd2db23af76de3c7fc794e0f5e7891b346eda7e56b0697a7f4bd03e8b6efc65",
+      "values": [
+        {
+          "account": "0x31fffDFc9Ec36F1340be49245E1c96F4512F679e",
+          "amount": "1",
+          "leaf": "0x2cd2db23af76de3c7fc794e0f5e7891b346eda7e56b0697a7f4bd03e8b6efc65",
+          "treeIndex": 0
+        }
+      ],
+      "levels": [
+        [
+          "0x2cd2db23af76de3c7fc794e0f5e7891b346eda7e56b0697a7f4bd03e8b6efc65"
+        ]
+      ]
+    },
+    "entries": [
+      {
+        "account": "0x31fffDFc9Ec36F1340be49245E1c96F4512F679e",
+        "amount": "1",
+        "leaf": "0x2cd2db23af76de3c7fc794e0f5e7891b346eda7e56b0697a7f4bd03e8b6efc65",
+        "proof": []
+      }
+    ]
+  }
+}

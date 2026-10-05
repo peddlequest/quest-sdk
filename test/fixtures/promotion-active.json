@@ -1,0 +1,1 @@
+{"success":true,"data":{"placements":[],"chains":[{"chainId":"0x1237","ok":false,"blockNumber":null},{"chainId":"0x2105","ok":true,"blockNumber":"52147467"},{"chainId":"0x38","ok":true,"blockNumber":"125603834"},{"chainId":"0x13b2","ok":true,"blockNumber":"24155759"},{"chainId":"0xaa36a7","ok":true,"blockNumber":"11839740"}],"checkedAt":"2026-10-04T03:24:42.153Z"}}
